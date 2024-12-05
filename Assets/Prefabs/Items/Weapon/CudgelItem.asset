@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28e8d586c8898c1428d7fcd735770ca2, type: 3}
+  m_Name: CudgelItem
+  m_EditorClassIdentifier: 
+  _name: Cudgel
+  _sprite: {fileID: -1225681793, guid: 6af861070d5fffc4e95e4ce08648f807, type: 3}
+  _isQuantitative: 0
+  _foodSO: {fileID: 0}
+  _weapon: {fileID: 11400000, guid: 33ae04df23493e7488c8a7dfd473f489, type: 2}
