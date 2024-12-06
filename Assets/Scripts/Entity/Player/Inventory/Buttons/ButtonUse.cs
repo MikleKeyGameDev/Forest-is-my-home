@@ -5,13 +5,10 @@ public class ButtonUse : MonoBehaviour
     [SerializeField] private Cell _cell;
 
     private CellHendRight _cellHendRight;
-    
-    private Player _player;
 
     private void Awake()
     {
         _cellHendRight = FindAnyObjectByType<CellHendRight>();
-        _player = FindAnyObjectByType<Player>();
     }
 
     public void Use()

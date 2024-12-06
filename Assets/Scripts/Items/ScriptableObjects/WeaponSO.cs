@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WeaponSO : ScriptableObject
 {
-    [SerializeField] private float _damage;
+    [SerializeField] private int _damage;
 
-    public float Damage { get { return _damage; } }
+    public int Damage { get { return _damage; } }
 }

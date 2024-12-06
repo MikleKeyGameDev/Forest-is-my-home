@@ -156,9 +156,9 @@ MonoBehaviour:
   _item: {fileID: 11400000, guid: 1f218f8f2f787824da2e28bbc002633e, type: 2}
   _notRipeSprite: {fileID: -751248998, guid: 82954862908d73a4e81bbd2c1667ff0a, type: 3}
   _ripeSprite: {fileID: -943339286, guid: 82954862908d73a4e81bbd2c1667ff0a, type: 3}
-  _minTimeToRipe: 20
-  _maxTimeToRipe: 60
-  _maxNumberBerries: 5
+  _minTimeToRipe: 60
+  _maxTimeToRipe: 360
+  _maxNumberBerries: 11
   _minNumberBerries: 1
   _renderer: {fileID: 390927047238882196}
 --- !u!114 &8016917646712394804

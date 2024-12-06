@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7067682380393687916}
   - component: {fileID: 3423606302312330773}
   - component: {fileID: 7617410050668271844}
+  - component: {fileID: 4001259803335706525}
   m_Layer: 5
   m_Name: CellHend(Right)
   m_TagString: Untagged
@@ -94,6 +95,21 @@ MonoBehaviour:
   _nameItem: 
   _item: {fileID: 0}
   _defaultSprite: {fileID: -1809591203, guid: 15b4338194781ec41ba38852bea9c6d2, type: 3}
+--- !u!114 &4001259803335706525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387834898712433548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e94a08a78c321346a7cddd7eb70d9ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hend: {fileID: 0}
+  _cudgel: {fileID: 0}
+  _axe: {fileID: 0}
 --- !u!1 &4038466821796508968
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,7 +122,7 @@ GameObject:
   - component: {fileID: 7567530729433621991}
   - component: {fileID: 7725463381880048405}
   - component: {fileID: 8777837680599361373}
-  - component: {fileID: 7073145882887694039}
+  - component: {fileID: 3817303554919243832}
   m_Layer: 5
   m_Name: Dellete
   m_TagString: Untagged
@@ -216,9 +232,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7073145882887694039}
-        m_TargetAssemblyTypeName: ButtonDellete, Assembly-CSharp
-        m_MethodName: Dellete
+      - m_Target: {fileID: 3817303554919243832}
+        m_TargetAssemblyTypeName: ButtonRemove, Assembly-CSharp
+        m_MethodName: Remove
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -228,7 +244,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &7073145882887694039
+--- !u!114 &3817303554919243832
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -237,7 +253,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4038466821796508968}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cceea6eb5aa73b443ae8ad166cefcf93, type: 3}
+  m_Script: {fileID: 11500000, guid: 47092aeab6cbb30449d87d3d546a1173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cell: {fileID: 0}
+  _cell: {fileID: 7617410050668271844}

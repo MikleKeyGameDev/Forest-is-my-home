@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,7 +7,6 @@ public class CellHendRight : MonoBehaviour
     [SerializeField] private GameObject _butRemove;
 
     [Header("DataItem")]
-    [SerializeField] private string _nameItem;
     [SerializeField] private ItemSO _item;
 
     [Header("DataCell")]
@@ -34,7 +31,6 @@ public class CellHendRight : MonoBehaviour
     {
         if (_item == null)
         {
-            _nameItem = item.Name;
             _item = item;
             return true;
         }
@@ -49,8 +45,6 @@ public class CellHendRight : MonoBehaviour
         if (_item == null)
         {
             _image.sprite = _defaultSprite;
-            _item = null;
-            _nameItem = null;
         }
         else
         {
@@ -68,5 +62,10 @@ public class CellHendRight : MonoBehaviour
         {
             _butRemove.SetActive(false);
         }
+    }
+
+    public void DelleteItem()
+    {
+        _item = null;
     }
 }

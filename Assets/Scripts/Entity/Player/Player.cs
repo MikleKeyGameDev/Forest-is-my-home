@@ -20,12 +20,12 @@ public class Player : MonoBehaviour
 
     private void Strave()
     {
-        _hunger -= 1f;
+        _hunger--;
 
         if(_hunger <= 0f)
         {
             _hunger = 0f;
-            _entity.TakeDamage(0.25f);
+            _entity.TakeDamage(1);
         }
 
         StartCoroutine(StraveTimer());
@@ -43,7 +43,7 @@ public class Player : MonoBehaviour
 
     private IEnumerator StraveTimer()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(10f);
         Strave();
     }
 }

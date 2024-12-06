@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5577680489311863271}
   - component: {fileID: 5875744381532874875}
   - component: {fileID: 636917974477702394}
+  - component: {fileID: 3445194817479009936}
   - component: {fileID: 9133344494142236593}
   m_Layer: 0
   m_Name: Berry
@@ -121,6 +122,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.13670811
+--- !u!95 &3445194817479009936
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7094107235900275325}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &9133344494142236593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,4 +156,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _itemSO: {fileID: 11400000, guid: 1f218f8f2f787824da2e28bbc002633e, type: 2}
+  _weapon: {fileID: 0}
   _foodSO: {fileID: 11400000, guid: 250f348d67dd7464bb9fac4e15271dae, type: 2}

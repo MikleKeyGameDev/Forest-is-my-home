@@ -101,7 +101,7 @@ MonoBehaviour:
   _item: {fileID: 0}
   _defaultSprite: {fileID: -1809591203, guid: 15b4338194781ec41ba38852bea9c6d2, type: 3}
   _quantity: 0
-  _maxQuantity: 5
+  _maxQuantity: 10
 --- !u!1 &388909616153270026
 GameObject:
   m_ObjectHideFlags: 0
